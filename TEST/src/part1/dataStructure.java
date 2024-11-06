@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class dataStructure {
 	public static void main(String[] args) {
+		
 		/* 백준 11720번 숫자의 합 구하기 
 		 * [문제] N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력하는 프로그램을 작성하시오. */
 		
