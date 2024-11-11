@@ -4,4 +4,4 @@
 
 참고 - DO IT! 알고리즘 코딩테스트
 
-/n 기록 - https://velog.io/@oss_nue/posts?tag=%EC%BD%94%ED%85%8C
+기록 - https://velog.io/@oss_nue/posts?tag=%EC%BD%94%ED%85%8C
