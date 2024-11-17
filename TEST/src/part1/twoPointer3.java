@@ -42,23 +42,25 @@ public class twoPointer3 {
 					continue;
 				}
 				if (end == i) {
-					end++;
+					end--;
 					continue;
 				}
 				
 				int nSum = nums[start] + nums[end];
 				
-				if(nSum > find)	end--;
-				else if (nSum < find) start++;
-				else {
-					count++;
-					break; // 그냥 그런 수가 있는지 찾는 거 일뿐 몇 개인지 셀필요 없으니 종료
-				}
+				if (nSum == find) {
+	                    count++;
+	                    break; // 좋은 수를 찾았으니 다음 i로 넘어감
+                } else if (nSum < find) {
+                    start++;
+                } else {
+                    end--;
+                }
 			}
+		
 		}
 		
 		System.out.println(count);
-		
-				
 	}
 }
+
