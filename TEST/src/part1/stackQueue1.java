@@ -48,5 +48,6 @@ public class stackQueue1 {
 		
 		if(result) System.out.println(bf.toString());
 		
+		
 	}
 }
