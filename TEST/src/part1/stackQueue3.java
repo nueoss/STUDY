@@ -16,7 +16,7 @@ public class stackQueue3 {
 		int num = sc.nextInt();
 		
 		
-		for(int i = 0; i < num; i++) {
+		for(int i = 1; i <= num; i++) {
 			q.add(i);
 		}
 		
