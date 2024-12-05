@@ -18,6 +18,11 @@ class t8 {
         int c1 = 0;
         int c2 = 0;
         
+        String a = "a";
+        System.out.println(a.hashCode());
+
+        Integer integerNum = Integer.valueOf(c1);
+        
          for(int i = 0; i < goal.length; i++) {
              if(c1 < cards1.length && cards1[c1].equals(goal[i])) {
                  c1++;
