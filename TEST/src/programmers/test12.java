@@ -23,6 +23,5 @@ public class test12 {
             answer[i] = que.peek();
         }
         
-        
     }
 }
