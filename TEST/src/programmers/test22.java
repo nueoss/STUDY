@@ -1,6 +1,8 @@
 package programmers;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class test22 {
 	public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class test22 {
 			if (phone_book[i + 1].startsWith(phone_book[i])) result = false;
         }
 		
-		
+		Map<String, Integer> map = new HashMap<String, Integer>();
 		System.out.println(result);
 	}
 }
