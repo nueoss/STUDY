@@ -1,8 +1,8 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.util.Scanner;
 
-public class dataStructure {
+public class part1_dataStructure {
 	public static void main(String[] args) {
 		
 		/* 백준 11720번 숫자의 합 구하기 

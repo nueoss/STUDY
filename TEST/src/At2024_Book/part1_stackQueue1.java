@@ -1,11 +1,11 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class stackQueue1 {
+public class part1_stackQueue1 {
 	public static void main(String[] args) throws IOException {
 		 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

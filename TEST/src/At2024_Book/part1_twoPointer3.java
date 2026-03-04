@@ -1,4 +1,4 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class twoPointer3 {
+public class part1_twoPointer3 {
 	public static void main(String[] args) throws IOException {
 
 		/* 백준 1253번 좋은 수 구하기 */

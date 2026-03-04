@@ -1,4 +1,4 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class QuickSort {
+public class part1_QuickSort {
 	public static void main(String[] args) throws IOException {
 
 		/* 백준 11004번 K번째 수 구하기 */

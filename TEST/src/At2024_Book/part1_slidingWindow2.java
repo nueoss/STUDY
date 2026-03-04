@@ -1,4 +1,4 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -11,7 +11,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 
-public class slidingWindow2 {
+public class part1_slidingWindow2 {
 	
 	// public static final Scanner scan = new Scanner(System.in);
 	

@@ -1,4 +1,4 @@
-package At2024_part2;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class dfs1 {
+public class part2_dfs1 {
 	
 	// dfs 함수에서 사용할 변수 정의
 	static ArrayList<Integer> [] A;

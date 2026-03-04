@@ -1,11 +1,11 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class slidingWindow1 {
+public class part1_slidingWindow1 {
 	
 	// 모든 메서드에서 사용할 수 있도록 static으로 선언
 	static int checkArr[]; // 조건 배열

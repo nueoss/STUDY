@@ -1,8 +1,8 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.util.Scanner;
 
-public class twoPointer1 {
+public class part1_twoPointer1 {
 	public static void main(String[] args) {
 		/* 백준 2018번 연속된 자연수의 합 구하기 */
 		

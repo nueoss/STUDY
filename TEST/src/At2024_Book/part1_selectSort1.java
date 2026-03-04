@@ -1,9 +1,9 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class selectSort1 {
+public class part1_selectSort1 {
 	public static void main(String[] args) {
 		/* 백준 1427번 내림차순으로 자릿수 정렬하기 */
 		

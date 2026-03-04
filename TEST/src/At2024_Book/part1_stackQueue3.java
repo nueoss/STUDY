@@ -1,10 +1,10 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class stackQueue3 {
+public class part1_stackQueue3 {
 	public static void main(String[] args) {
 
 		/* 백준 2164번 카드게임 */

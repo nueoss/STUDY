@@ -1,11 +1,11 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class bubbleSort1 {
+public class part1_bubbleSort1 {
 	public static void main(String[] args) throws IOException {
 
 		/* 백준 2750번 수 정렬하기1 */

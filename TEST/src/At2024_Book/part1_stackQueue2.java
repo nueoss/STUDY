@@ -1,4 +1,4 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class stackQueue2 {
+public class part1_stackQueue2 {
 	public static void main(String[] args) throws IOException {
 
 		/* 백준 17298번 오큰수 구하기 */

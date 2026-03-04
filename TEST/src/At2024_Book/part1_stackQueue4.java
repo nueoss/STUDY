@@ -1,11 +1,11 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 
-public class stackQueue4 {
+public class part1_stackQueue4 {
 	public static void main(String[] args) throws IOException {
 
 		/* 백준 11286번 절댓값 힙 구하기 */

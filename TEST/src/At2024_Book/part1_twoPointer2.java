@@ -1,4 +1,4 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class twoPointer2 {
+public class part1_twoPointer2 {
 	public static void main(String[] args) throws IOException {
 		
 		/* 백준 1940번 주몽의 명령 */

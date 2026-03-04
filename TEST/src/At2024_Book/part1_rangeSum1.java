@@ -1,11 +1,11 @@
-package At2024_part1;
+package At2024_Book;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class rangeSum1 {
+public class part1_rangeSum1 {
 	public static void main(String[] args) throws IOException {
 		
 		// 백준 11659번 구간 합 구하기
