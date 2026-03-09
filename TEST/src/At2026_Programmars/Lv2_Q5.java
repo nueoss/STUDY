@@ -24,9 +24,9 @@ public class Lv2_Q5 {
 			for(int j = iNum; j <= n; j++) {
 				iSum += j;
 				
-				if(iSum > 15)
+				if(iSum > n)
 					break;
-				else if (iSum == 15) {
+				else if (iSum == n) {
 					iCnt++;
 					break;
 				}
