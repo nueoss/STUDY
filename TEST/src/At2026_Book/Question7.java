@@ -1,5 +1,8 @@
 package At2026_Book;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Question7 {
 
 	public static void main(String[] args) {
@@ -14,11 +17,20 @@ public class Question7 {
 		int iEndIDX = 1;
 		int iCnt = 0;
 
+		// 1. 포함 여부를 위해 List 변환
+		List<Integer> oNumList = new ArrayList();
+		for(int i : pNums)
+			oNumList.add(i);
 		
-		while(iEndIDX != pNums.length - 1) {
+		while(iEndIDX != pNums.length - 2) {
 			int iTempSum = pNums[iStartIDX] + pNums[iEndIDX];
-			
+			if(oNumList.contains(iTempSum)) {
+				iCnt++;
+				iEndIDX++;
+				iStartIDX++;
+			} 
 		}
+		
 		return 0;
 	}
 
