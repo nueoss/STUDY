@@ -1,7 +1,7 @@
 package At2026_Book;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
+
 
 public class Question7 {
 
@@ -13,25 +13,42 @@ public class Question7 {
 	
 	public static int solution(int [] pNums) {
 		
-		int iStartIDX = 0;
-		int iEndIDX = 1;
-		int iCnt = 0;
-
-		// 1. 포함 여부를 위해 List 변환
-		List<Integer> oNumList = new ArrayList();
-		for(int i : pNums)
-			oNumList.add(i);
+		// 정렬
+		Arrays.sort(pNums);
 		
-		while(iEndIDX != pNums.length - 2) {
-			int iTempSum = pNums[iStartIDX] + pNums[iEndIDX];
-			if(oNumList.contains(iTempSum)) {
-				iCnt++;
-				iEndIDX++;
-				iStartIDX++;
-			} 
+		int iResult = 0;
+		for(int i = 0; i < pNums.length; i++) {
+			
+			int iFind = pNums[i];
+			int iStartIDX = 0;
+			int iEndIDX = pNums.length - 1;
+			
+			while(iStartIDX < iEndIDX) {
+				
+				// 1) 합이 iFind가 맞는지
+				if(pNums[iStartIDX] + pNums[iEndIDX] == iFind) {
+					
+					if(iStartIDX != i && iEndIDX != i) {
+						iResult++;
+						break;
+					} else if (iStartIDX == i) {
+						iStartIDX++;
+					} else if (iEndIDX == i) {
+						iEndIDX++;
+					}
+					
+				} else if (pNums[iStartIDX] + pNums[iEndIDX] < iFind) { // 타겟갑보다 작으면 iStartIDX ++
+					iStartIDX++;
+				} else {
+					iEndIDX--;
+				}
+				
+			}
 		}
 		
-		return 0;
+		
+		
+		return iResult;
 	}
 
 }
